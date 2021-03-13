@@ -3,7 +3,7 @@ Code to use a Raspberry Pi as a doorbell replacement and play a mp3 file as the 
 
 This is pretty simple code that can be adapted to use on many platforms, but since I had a Pi sitting around, I figured I would put it to use.
 
-My doorbell is terrible here, which is why I decided to do this in the first place.
+The existing doorbell sucked bootyballs, which is why I decided to do this in the first place.
 
 The mp3 file I'm using is a cat meowing, but you can basically use any mp3 file you want, so the options as limitless. Heck, you can use an mp3 file of a dog barking and scare anyone who rings the doorbell.
 
