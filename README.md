@@ -5,7 +5,7 @@ This is pretty simple code that can be adapted to use on many platforms, but sin
 
 The existing doorbell sucked bootyballs, which is why I decided to do this in the first place.
 
-The mp3 file I'm using is a cat meowing, but you can basically use any mp3 file you want, so the options as limitless. Heck, you can use an mp3 file of a dog barking and scare anyone who rings the doorbell.
+The mp3 file I'm using is a cat meowing, but you can basically use any mp3 file you want, so the options as limitless. Heck, you can use an mp3 file of a dog barking, or play your favorite song.
 
 There is only two pieces of code: 
 
@@ -22,7 +22,7 @@ Pi specific things:
 
 Image source: https://www.raspberrypi.org/documentation/usage/gpio/
 
-I used the bottom 2 pins, GPIO26 and ground and the code is setup for this. IF you want to use a different GPIO pin, change the pin variable in doorbell.sh and you should be golden.
+I used the bottom 2 pins, GPIO26 and ground and the code is setup for this. If you want to use a different GPIO pin, change the pin variable in doorbell.sh and you should be golden.
 
 This page explains how to control the 3.5mm jack through the command line:
 http://raspberrypi-aa.github.io/session3/audio.html#:~:text=To%20change%20the%20volume%2C%20run,Route%20or%20Playback%20Switch%20controls.
