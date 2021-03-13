@@ -1,0 +1,12 @@
+[Unit]
+Description=Doorbell Service
+After=multi-user.target
+
+[Service]
+Type=simple
+Restart=always
+RemainAfterExit=no
+ExecStart=/bin/sh /home/pi/doorbell.sh
+
+[Install]
+WantedBy=multi-user.target
